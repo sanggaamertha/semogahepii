@@ -31,14 +31,16 @@
         h1{
             position: absolute;
             
-            justify-content: center; /* Mengatur konten secara horizontal ke tengah */
-            align-items: center; /* Mengatur konten secara vertikal ke tengah */
-            height: 90vh; /* Mengatur tinggi elemen h1 menjadi tinggi viewport */
-            margin: 0; 
+            top: 50%;
+            left: 50%;
+             transform: translate(-50%, -50%); /* Menggeser ke tengah secara horizontal dan vertikal */
+              justify-content: center;
+             align-items: center;
+            margin: 0;
             color: white;
+            z-index: 1;
 
         }
-
         .flower{
             position: relative;
         }
