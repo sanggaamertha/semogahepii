@@ -28,6 +28,20 @@
             align-items: flex-end;
             overflow: hidden;
         }
+
+        @media only screen and (max-width: 600px) {
+  h1 {
+    position: relative; /* Mengembalikan posisi ke semula */
+    top: auto;
+    left: auto;
+    transform: none; /* Menghapus transform */
+    justify-content: center; /* Mengatur kembali posisi */
+    align-items: center; /* Mengatur kembali posisi */
+    text-align: center; /* Mengatur teks ke tengah */
+    width: 100%; /* Menyesuaikan lebar */
+    margin: 0;
+  }
+}
         h1{
             position: absolute;
             
